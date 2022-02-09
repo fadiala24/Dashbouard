@@ -1,0 +1,80 @@
+<app-header></app-header>
+<app-menu></app-menu>
+<div class="page-wrapper">
+    <div class="row justify-content-center sous-header">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card" >
+                <a>
+                    <div class="panel-body">
+                        <h3 routerLink="/listAdmin">Administrateurs</h3>
+                        <span class="text-small margin-top-10 full-width"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <a>
+                    <div class="panel-body">
+                        <h3 routerLink="/listUsers">Boutiquiers</h3>
+                        <span class="text-small margin-top-10 full-width"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card">
+                <a>
+                    <div class="panel-body">
+                        <h3 routerLink="/listPointage">Boutiques</h3> 
+                        <span class="text-small margin-top-10 full-width"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+            <div class="card ">
+                <a>
+                    <div class="panel-body">
+                        <h3 routerLink="/log">Produits</h3>
+                        
+                        <span class="text-small margin-top-10 full-width"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding-top: 5%; padding-left: 30px;">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="card card-box">
+                <div class="card-head">
+                    <header>Géolocalisation</header>
+                    <div class="tools">
+                      
+                    </div>
+                </div>
+                <div class="card-body no-padding height-9">
+                    <div class="row">
+                        <canvas id="bar-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="card card-box">
+                <div class="card-head">
+                    <header>Calendrier</header>
+                    <div class="tools">
+                       
+                        
+                    </div>
+                </div>
+                <div class="card-body no-padding height-9">
+                    <div class="row">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
